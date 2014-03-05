@@ -1,0 +1,76 @@
+# LAAS/ SoT packages
+# catkinized
+
+- git:
+    uri: https://github.com/Karsten1987/dynamic_graph_bridge.git
+    local-name: dynamic_graph_bridge
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/jrl_dynamics_urdf.git
+    local-name: jrl_dynamics_urdf
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/ros_sot_robot_model.git
+    local-name: ros_sot_robot_model
+    version: master
+
+
+# PAL/ SoT packages 
+# created for applications
+
+- git:
+    uri: https://github.com/Karsten1987/task_joint_weights.git
+    local-name: task_joint_weights
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/dyn-oppoint-modifier.git
+    local-name: dyn-oppoint-modifier
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/dynamic_graph_fcl.git
+    local-name: dynamic_graph_fcl
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/task_velocity_damping.git
+    local-name: task_velocity_damping
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/sot_controller.git
+    local-name: sot_controller
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/task_joint_limit_clamping.git
+    local-name: task_joint_limit_clamping
+    version: master
+
+# PAL/ Misc Packages
+# created for supporting/visualization
+
+- git:
+    uri: https://github.com/Karsten1987/trj_publisher.git
+    local-name: trj_publisher
+    version: master
+
+- git:
+    uri: https://github.com/Karsten1987/rviz_marker.git
+    local-name: rviz_marker
+    version: master
+
+
+- git:
+    uri: https://github.com/Karsten1987/sot_filters.git
+    local-name: sot_filters 
+    version: master
+
+- setup-file:
+    local-name: /opt/ros/hydro/setup.sh
+
+- other:
+    local-name: /opt/ros/hydro/share/ros
